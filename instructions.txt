@@ -1,0 +1,30 @@
+Prepare development environment:
+
+install Node.js from https://nodejs.org/en/download/
+open command line
+run: npm install
+run: npm start
+open browser and type: http://localhost:3000/
+
+
+The Task
+
+Functionality:
+  In the MainPage.tsx
+   - Display table of exchange rates from http://www.orienteeringorganiser.com/api/exchangeRates
+     - avoid using jQuery if possible
+   - Place a button that opens a modal dialog that will allow user to update selected exchange rate
+      - implement as PUT call, but do not worry if the data on the server is not updated
+   - if you are familiar with MobX, use MobX. If not, do not worry.
+
+Styling
+  - Add basics styling
+  - use at least one feature from Bootstrap 
+
+Testing
+  Implement at least one test (see tests\index.test.ts) that will test implemented functionality
+  Create list of testcases (just names)
+
+Note: you can restructure given boilerplate as you think it would be best for production code
+
+Create a SQL script that will create a table which will hold customers purchases of foreign currencies

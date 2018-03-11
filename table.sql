@@ -1,0 +1,1 @@
+create table purchases(customerid int NOT NULL, currencypairid int NOT NULL, [date] DATETIME NOT NULL, rate float NOT NULL, amount float NOT NULL)
