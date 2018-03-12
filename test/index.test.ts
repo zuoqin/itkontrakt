@@ -13,3 +13,11 @@ describe('Dummy test - should always pass', () => {
 
 
 });
+
+// should be tested fetchdata method
+
+// Should be tested component rendering for Table without crash
+
+// Should be tested component rendering for Dialog without crash
+
+// Should test results of updateitem
